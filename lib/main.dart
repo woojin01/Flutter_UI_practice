@@ -5,18 +5,10 @@ import 'package:toonflix/widgets/currency_card.dart';
 class Player {
   String name;
 
-  //case 1:
-  //Player(this.name);
-  //case 2:
   Player({required this.name}); //using named parameter
 }
 
 void main() {
-  //case 1:
-  //var yang = Player('yang');
-  //case 2:
-  //var yang = Player(name: 'yang'); //using named parameter
-  //yang.name;
   runApp(const App());
 }
 
